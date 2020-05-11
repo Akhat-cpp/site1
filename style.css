@@ -1,43 +1,47 @@
-*
-{
+*{
 	margin: 0px;
 	padding: 0px;
 }
-A
-{
+a{
 	color: black !important;
 }
-li
-{
+a:hover{
+	color: blue !important;
+	text-decoration: none !important;
+}
+li{
 	list-style-type: none;
 }
-.col-1, .col-2, .col-4
-{
+.col-1, .col-2, .col-4{
 	padding-right: 0px !important;
 }
-.col-10
-{
+.col-10{
 	padding-left: 0px !important;
 }
-.bac-col-black-col-white
-{
+.bac-col-black{
 	background-color: #272b30 !important;
-	color: white !important;
-	border-color: #272b30 !important;
+	border: solid 1px #272b30 !important;
 }
-.menu-bar
-{
-	background-color: #f8f9fa;
-	border-right: 1px;
-	border-color: #e2e3e4;
+.menu-bar{
+	background-color: #f8f9fa !important;
 	height: 100vh;
 }
-.heightfoter
-{
-	height: 38px;
+.menu-border{
+	border-right: 1px solid #e2e3e4 !important;
 }
-.inp
-{
+.heightfoter{
+	height: 40px;
+}
+.inp{
 	background-color: #494e53 !important;
 	color:#6a737a !important;
+}
+.btnhover:hover{
+	background-color: #147bff !important;
+}
+.tablehover:hover{
+	background-color: #28a745 !important;
+}
+.kostuldljanormodnostraichnika{
+	
 }
