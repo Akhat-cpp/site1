@@ -42,6 +42,9 @@ li{
 .tablehover:hover{
 	background-color: #28a745 !important;
 }
-.kostuldljanormodnostraichnika{
-	
+.cost{
+	height: 97vh;
+}
+.cost2{
+	width: 97vh;
 }
